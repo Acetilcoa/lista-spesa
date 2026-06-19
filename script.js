@@ -2,6 +2,8 @@ const bottone = document.getElementById("aggiungiBtn");
 const input = document.getElementById("nuovoElemento");
 const lista = document.getElementById("lista");
 const messaggioErrore= document.getElementById("messaggioErrore");
+const svuotaBtn = document.getElementById("svuotaBtn");
+svuotaBtn.addEventListener("click", svuotaLista);
 let contatore = 0;
 
 bottone.addEventListener("click", function() {
